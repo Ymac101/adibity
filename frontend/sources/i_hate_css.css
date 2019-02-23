@@ -32,6 +32,7 @@
   display: inline-block;
 
 }
+/*Try adding xss to "GET" params... ;) */
 
 .smalltext{
   padding-top: 5px;

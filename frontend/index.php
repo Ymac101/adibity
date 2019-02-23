@@ -7,7 +7,7 @@ header('Bis: 90', true);
 <head>
   <title>Adi Bity</title>
   <link href="sources/favicon.ico" rel="icon" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" href="i_hate_css.css">>
+  <link rel="stylesheet" type="text/css" href="sources/i_hate_css.css">>
 </head>
 <!--
 Yeah you pressed F12, so what? think you're all 1337 and shit, he're a dickbutt just for you:
@@ -91,7 +91,7 @@ if (isset($_GET["xss"])) {
   </div>
 </head>
 
-<script src="countdown.js""></script>
+<script src="sources/countdown.js""></script>
 </div>
 </body>
 </html>
