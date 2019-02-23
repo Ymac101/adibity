@@ -6,6 +6,7 @@ header('Bis: 90', true);
 <html lang="en">
 <head>
   <title>Adi Bity</title>
+  <link href="sources/favicon.ico" rel="icon" type="image/x-icon" />
 </head>
 <body style="background-color:black">
 <?php
