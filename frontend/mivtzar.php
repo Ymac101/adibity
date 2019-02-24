@@ -66,14 +66,14 @@ Yeah you pressed F12, so what? think you're all 1337 and shit, he're a dickbutt 
                                    אנח                                                  
                                                                                       
 -->
-<body style="background-color:white">
+<body style="background-color:black">
 <?php
 if (isset($_GET["xss"])) {
 	echo '<script type="text/javascript">alert(1337)</script>';
 }
 ?>
 <div id="clockdiv">
-	<img src="sources/namer_hakesef.jpg" class="center"/>
+	<img src="sources/bois_kastel.png" class="center"/>
 	<br/>
   <div>
     <span class="days"></span>
