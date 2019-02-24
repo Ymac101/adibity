@@ -1,6 +1,6 @@
 <?php
 header('Server: not nginx lol', true);
-header('Bis: 90', true);
+header('Bis: 90 or 40 or 80 or 20 or MAMRAM', true);
 ?>
 <!DOCTYPE html>
 <html lang="en">
