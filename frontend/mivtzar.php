@@ -5,7 +5,7 @@ header('Bis: 90 or 40 or 80 or 20 or MAMRAM', true);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Adi Bity</title>
+  <title>Taylor</title>
   <link href="sources/favicon.ico" rel="icon" type="image/x-icon" />
   <link rel="stylesheet" type="text/css" href="sources/i_hate_css.css">>
 </head>

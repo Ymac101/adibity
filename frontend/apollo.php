@@ -5,9 +5,9 @@ header('Bis: 90 or 40 or 20 or ?', true);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Adi Bity</title>
+  <title>Agam Buchbut</title>
   <link href="sources/favicon.ico" rel="icon" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" href="sources/i_hate_css.css">>
+  <link rel="stylesheet" type="text/css" href="sources/i_really_should_do_it_smarter.css">>
 </head>
 <!--
 Yeah you pressed F12, so what? think you're all 1337 and shit, he're a dickbutt just for you:
@@ -66,7 +66,7 @@ Yeah you pressed F12, so what? think you're all 1337 and shit, he're a dickbutt 
                                    אנח                                                  
                                                                                       
 -->
-<body style="background-color:black">
+<body style="background-color:white">
 <?php
 if (isset($_GET["xss"])) {
 	echo '<script type="text/javascript">alert(1337)</script>';

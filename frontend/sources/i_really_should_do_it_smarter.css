@@ -1,0 +1,41 @@
+    .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+  body{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+#clockdiv{
+  font-family: sans-serif;
+  color: #fff;
+  display: block;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+#clockdiv > div{
+  padding: 10px;
+  border-radius: 3px;
+  background: #d7d7d7;
+  display: inline-block;
+}
+
+#clockdiv div > span{
+  padding: 15px;
+  border-radius: 3px;
+  background: #444141;
+  display: inline-block;
+
+}
+/*Try adding xss to "GET" params... ;) */
+
+.smalltext{
+  padding-top: 5px;
+  font-size: 16px;
+  color: black;
+}
