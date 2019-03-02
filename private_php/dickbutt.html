@@ -1,14 +1,3 @@
-<?php
-header('Server: not nginx lol', true);
-header('Bis: 90', true);
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Adi Bity</title>
-  <link href="sources/favicon.ico" rel="icon" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" href="sources/yeah_im_lazy.css">>
-</head>
 <!--
 Yeah you pressed F12, so what? think you're all 1337 and shit, he're a dickbutt just for you:
 
@@ -66,34 +55,3 @@ Yeah you pressed F12, so what? think you're all 1337 and shit, he're a dickbutt 
                                    אנח                                                  
                                                                                       
 -->
-<body style="background-color:white">
-<?php
-if (isset($_GET["xss"])) {
-	echo '<script type="text/javascript">alert(1337)</script>';
-}
-?>
-<div id="clockdiv">
-	<img src="sources/namer_hakesef.jpg" class="center"/>
-	<br/>
-  <div>
-    <span class="days"></span>
-    <div class="smalltext">Days</div>
-  </div>
-  <div>
-    <span class="hours"></span>
-    <div class="smalltext">Hours</div>
-  </div>
-  <div>
-    <span class="minutes"></span>
-    <div class="smalltext">Minutes</div>
-  </div>
-  <div>
-    <span class="seconds"></span>
-    <div class="smalltext">Seconds</div>
-  </div>
-</head>
-
-<script src="sources/countdown.js""></script>
-</div>
-</body>
-</html>
