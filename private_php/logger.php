@@ -33,4 +33,4 @@ $user = array(
 	'user_languages' => $userLanguages
 );
 
-file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/Logs/access.log', json_encode($user) . "\n", FILE_APPEND | LOCK_EX);
+file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/tmp/access.log', json_encode($user) . "\n", FILE_APPEND | LOCK_EX);
