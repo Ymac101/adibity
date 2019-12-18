@@ -12,10 +12,7 @@ if (isset($_GET['bizyoni'])) {
 ?>
 <body style="background-color:white">
 
-<?php
-if (isset($_GET["xss"])) {
-	echo '<script type="text/javascript">alert(1337)</script>';
-}?>
+<?php if (isset($_GET["xss"])) { echo '<script type="text/javascript">alert(1337)</script>';}?>
 
 <div id="clockdiv">
 	<img src="sources/img/namer_hakesef.jpg" class="center"/>
