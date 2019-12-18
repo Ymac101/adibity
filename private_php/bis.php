@@ -5,10 +5,16 @@
   <link href="sources/favicon.ico" rel="icon" type="image/x-icon" />
   <link rel="stylesheet" type="text/css" href="sources/css/yeah_im_lazy.css">>
 </head>
-<?php if (isset($_GET['bizyoni'])) {include('../private_php/dickbutt.html') ;}?>
+<?php 
+if (isset($_GET['bizyoni'])) {
+  include('../private_php/dickbutt.html') ;
+}?>
 <body style="background-color:white">
 
-<?php if (isset($_GET["xss"])) { echo '<script type="text/javascript">alert(1337)</script>';}?>
+<?php
+  if (isset($_GET["xss"])) { 
+    echo '<script type="text/javascript">alert(1337)</script>';
+}?>
 
 <div id="clockdiv">
 	<img src="sources/img/namer_hakesef.jpg" class="center"/>
@@ -29,7 +35,7 @@
     <span class="seconds"></span>
     <div class="smalltext">Seconds</div>
   </div>
-</head>
+
 
 <script src="sources/js/countdown.js"></script>
 </div>
