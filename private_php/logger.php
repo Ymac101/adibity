@@ -33,4 +33,4 @@ $user = array(
 	'user_languages' => $userLanguages
 );
 
-error_log(json_encode($user) . "\n");
+error_log(json_encode($user));
