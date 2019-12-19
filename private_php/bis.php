@@ -3,7 +3,7 @@
 <head>
   <title>Adi Bity</title>
   <link href="sources/favicon.ico" rel="icon" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" href="sources/css/yeah_im_lazy.css">>
+  <link rel="stylesheet" type="text/css" href="sources/css/yeah_im_lazy.css" />
 </head>
 <?php 
 if (isset($_GET['bizyoni'])) {
