@@ -38,9 +38,8 @@ if (isset($_GET["xss"])) {
     <span class="seconds"></span>
     <div class="smalltext">Seconds</div>
   </div>
-</head>
 
-<script src="sources/js/countdown.js""></script>
+<script src="sources/js/countdown.js"></script>
 </div>
 </body>
 </html>

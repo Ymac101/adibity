@@ -3,18 +3,17 @@
 <head>
   <title>Adi Bity</title>
   <link href="sources/favicon.ico" rel="icon" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" href="sources/css/yeah_im_lazy.css">>
+  <link rel="stylesheet" type="text/css" href="sources/css/yeah_im_lazy.css" />
 </head>
-<?php
+<?php 
 if (isset($_GET['bizyoni'])) {
   include('../private_php/dickbutt.html') ;
-}
-?>
+}?>
 <body style="background-color:white">
 
 <?php
-if (isset($_GET["xss"])) {
-	echo '<script type="text/javascript">alert(1337)</script>';
+  if (isset($_GET["xss"])) { 
+    echo '<script type="text/javascript">alert(1337)</script>';
 }?>
 
 <div id="clockdiv">
@@ -36,9 +35,9 @@ if (isset($_GET["xss"])) {
     <span class="seconds"></span>
     <div class="smalltext">Seconds</div>
   </div>
-</head>
 
-<script src="sources/js/countdown.js""></script>
+
+<script src="sources/js/countdown.js"></script>
 </div>
 <div data-video="5a15k3_6PAo"  
          data-autoplay="1"         
