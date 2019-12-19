@@ -39,7 +39,7 @@ if (isset($_GET["xss"])) {
     <div class="smalltext">Seconds</div>
   </div>
 
-<script src="sources/js/countdown.js""></script>
+<script src="sources/js/countdown.js"></script>
 </div>
 </body>
 </html>
