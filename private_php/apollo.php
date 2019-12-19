@@ -3,7 +3,7 @@
 <head>
   <title>Agam Buchbut</title>
   <link href="sources/favicon.ico" rel="icon" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" href="sources/css/i_really_should_do_it_smarter.css">>
+  <link rel="stylesheet" type="text/css" href="sources/css/i_really_should_do_it_smarter.css">
 </head>
 
 <?php
